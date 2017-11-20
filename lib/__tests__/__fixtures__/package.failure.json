@@ -1,0 +1,16 @@
+{
+  "name": "unpinned-failure",
+  "dependencies": {
+    "module": "1.0.0",
+    "moduleA": "^1.0.0"
+  },
+  "devDependencies": {
+    "moduleB": "~1.0.0"
+  },
+  "peerDependencies": {
+    "moduleC": "1.x.x"
+  },
+  "optionalDependencies": {
+    "moduleD": "*"
+  }
+}

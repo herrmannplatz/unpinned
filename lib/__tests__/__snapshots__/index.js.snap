@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`unpinned should return object with unpinned dependencies 1`] = `
+Object {
+  "dependencies": Object {
+    "moduleA": "^1.0.0",
+  },
+  "devDependencies": Object {
+    "moduleB": "~1.0.0",
+  },
+  "optionalDependencies": Object {
+    "moduleD": "*",
+  },
+  "peerDependencies": Object {
+    "moduleC": "1.x.x",
+  },
+}
+`;
+
+exports[`unpinned should return undefined if all dependencies are pinned 1`] = `undefined`;
