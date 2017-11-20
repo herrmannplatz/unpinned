@@ -34,7 +34,6 @@ $ unpinned # will check for package.json in the current directory
 $ unpinned ./path/to/package.json
 $ unpinned ./path/to/package/json
 ```
-Describe general usage.
 
 ## API
 
