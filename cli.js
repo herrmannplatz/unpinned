@@ -11,7 +11,6 @@ const absolutePath = path.endsWith('package.json')
   ? resolve(path)
   : resolve(path, 'package.json')
 
-console.log(`Looking for package.json in path ${absolutePath}`)
 const unpinnedDependencies = unpinned(absolutePath)
 
 function prettyPrint (dependencies) {
