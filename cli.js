@@ -33,6 +33,6 @@ if (unpinnedDependencies) {
   prettyPrint(unpinnedDependencies)
   process.exit(1)
 } else {
-  console.info("\nAll dependencies are pinned.")
+  console.info('\nAll dependencies are pinned.')
   process.exit()
 }
