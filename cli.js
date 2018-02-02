@@ -29,10 +29,10 @@ function prettyPrint (dependencies) {
 }
 
 if (unpinnedDependencies) {
-  console.log('\nFound unpinned dependencies\n')
+  console.error('\nFound unpinned dependencies\n')
   prettyPrint(unpinnedDependencies)
   process.exit(1)
 } else {
-  console.log("\nCouldn't find any unpinned dependency")
+  console.info('\nAll dependencies are pinned.')
   process.exit()
 }
