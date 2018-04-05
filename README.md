@@ -1,5 +1,7 @@
 # unpinned
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/herrmannplatz/unpinned.svg)](https://greenkeeper.io/)
+
 [![npm version](https://badge.fury.io/js/unpinned.svg)](https://badge.fury.io/js/unpinned) [![Build Status](https://travis-ci.org/herrmannplatz/unpinned.svg?branch=master)](https://travis-ci.org/herrmannplatz/unpinned)
 
 Checks your package.json for unpinned dependencies
