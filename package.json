@@ -7,27 +7,24 @@
     "unpinned": "cli.js"
   },
   "scripts": {
+    "precommit": "npm test",
     "commit": "git-cz",
     "test": "jest --coverage",
-    "posttest": "standard",
-    "precommit": "npm test",
-    "commitmsg": "validate-commit-msg",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "posttest": "standard"
   },
-  "keywords": [],
+  "keywords": ["npm", "modules", "versions"],
   "author": "herrmannplatz <rene@herrmannplatz.de>",
   "license": "MIT",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "minimist": "1.2.0"
   },
   "devDependencies": {
-    "commitizen": "2.9.6",
+    "commitizen": "2.10.1",
     "cz-conventional-changelog": "2.1.0",
     "husky": "0.14.3",
-    "jest": "22.4.3",
-    "semantic-release": "15.1.7",
-    "standard": "^11.0.1",
-    "validate-commit-msg": "^2.14.0"
+    "jest": "23.4.2",
+    "semantic-release": "15.9.3",
+    "standard": "11.0.1"
   },
   "repository": {
     "type": "git",
@@ -37,5 +34,9 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
   }
 }
