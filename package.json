@@ -12,7 +12,11 @@
     "test": "jest --coverage",
     "posttest": "standard"
   },
-  "keywords": ["npm", "modules", "versions"],
+  "keywords": [
+    "npm",
+    "modules",
+    "versions"
+  ],
   "author": "herrmannplatz <rene@herrmannplatz.de>",
   "license": "MIT",
   "dependencies": {
