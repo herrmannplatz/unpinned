@@ -25,7 +25,7 @@
   "devDependencies": {
     "commitizen": "2.10.1",
     "cz-conventional-changelog": "2.1.0",
-    "husky": "1.0.0",
+    "husky": "1.0.1",
     "jest": "23.4.2",
     "semantic-release": "15.9.16",
     "standard": "12.0.0"
