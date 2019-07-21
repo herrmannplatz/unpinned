@@ -28,7 +28,7 @@
     "husky": "1.2.1",
     "jest": "23.4.2",
     "semantic-release": "15.13.12",
-    "standard": "12.0.0"
+    "standard": "13.1.0"
   },
   "repository": {
     "type": "git",
