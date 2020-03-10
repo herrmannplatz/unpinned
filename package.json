@@ -20,7 +20,7 @@
   "author": "herrmannplatz <rene@herrmannplatz.de>",
   "license": "MIT",
   "dependencies": {
-    "minimist": "1.2.0"
+    "minimist": "1.2.1"
   },
   "devDependencies": {
     "commitizen": "3.1.0",
