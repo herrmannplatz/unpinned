@@ -8,9 +8,10 @@
   },
   "scripts": {
     "precommit": "npm test",
-    "commit": "git-cz",
+    "cz": "git-cz",
     "test": "jest --coverage",
-    "posttest": "standard"
+    "posttest": "standard",
+    "prepare": "husky install"
   },
   "keywords": [
     "npm",
